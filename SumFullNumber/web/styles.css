@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to top, yellow, lightyellow);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 51px;
+    border: 2px solid white;
+    border-radius: 21px;
+    box-shadow: 0 0 5px 3px black;
+    transition: all 271ms ease-in-out;
+}
+
+.container:hover {
+    border-color: black;
+    box-shadow: 0 0 4px 7px black;
+    border-radius: 51px;
+    background: white;
+    transform: scale(1.21);
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+}
+
+.container form button {
+    margin-top: 21px;
+    transition: all 251ms ease-in-out;
+}
+
+#submit:hover {
+    transform: scale(1.11);
+    background: lightgreen;
+}
+
+#back:hover {
+    transform: scale(1.11);
+    background: tomato;
+}

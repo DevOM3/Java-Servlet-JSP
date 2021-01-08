@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(whitesmoke, lightyellow);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 2px solid black;
+    padding: 21px;
+    width: 21vw;
+    border-radius: 21px;
+    transition: all 551ms ease-in-out;
+}
+
+div:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 24px 2px rgba(51, 51, 51, 0.7);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 11px;
+}
+
+button {
+    margin-top: 11px;
+    transition: all 251ms ease;
+    border-width: 0px;
+    background: white;
+}
+
+button:hover{
+    background: lightgreen;
+    transform: scale(1.21);
+    border: 1px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+}
